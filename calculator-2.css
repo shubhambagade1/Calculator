@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-div {
+    background: #f0f0f0;
+    width: 30%;
+    height: 450px;
+    border: 10px solid rgb(143, 68, 68);
+    text-align: center;
+    border-radius: 10%;
+}
+h1{
+    margin-top: 40px;
+    color: #6e6e6e;
+}
+input[type=text]{
+    margin-bottom: 15px;
+    width: 234px;
+    border-radius: 7px;
+    height: 27px;
+    font-size: 20px;
+}
+
+input[type=button]{
+    width: 50px;
+    background: white;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid rgb(123, 45, 45);
+    border-radius: 20%;
+    font-size: 20px;
+}
+
+input[type=button]:hover{
+    background: rgb(235, 223, 251);
+    border: 1px solid black;
+    font-weight: bold;
+}
+input[value="="]{
+    width:28%
+}
